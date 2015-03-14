@@ -6,8 +6,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>local.archetypes</groupId>
-  <artifactId>loca-web-archetype</artifactId>
-  <version>alpha</version>
+  <artifactId>local-web-archetype</artifactId>
+  <version>Alpha-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
   <description>Simple Spring Web Archetype</description>
 
