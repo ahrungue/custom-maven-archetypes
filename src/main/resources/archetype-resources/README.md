@@ -2,11 +2,11 @@
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
 
-######  Descrição do Repositorio  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Descrição do Repositorio  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 
 Estrutura de um projeto Web com Spring Framework
 
-######  Estrutura do projeto  #####
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Estrutura do projeto  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```
 [ROOT]
 |\
@@ -35,7 +35,8 @@ Estrutura de um projeto Web com Spring Framework
 | |
 | |---pom.xml - Configurações do maven, dependencias do Java
 ```
-######  Bibliotecas e Softwares necessários  ######
+
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Bibliotecas e Softwares necessários  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 * Maven
 * NodeJS
 * Npm
@@ -49,26 +50,26 @@ Estrutura de um projeto Web com Spring Framework
 * Git
 
 
-######  Instalando NodeJS e NPM  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Instalando NodeJS e NPM  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 sudo apt-get -y install curl
 curl -sL https://deb.nodesource.com/setup | sudo bash -
 sudo apt-get -y install nodejs
 ```
-######  Checar as versões  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Checar as versões  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 node --version && npm --version
 ```
-######  Instalando Yeoman, Bower, Grunt, Generator-Angular  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Instalando Yeoman, Bower, Grunt, Generator-Angular  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 sudo npm install -g yo bower grunt-cli
 sudo npm install -g generator-angular
 ```
-######  Checar as versões  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Checar as versões  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 yo --version && bower --version && grunt --version
 ```
-######  RVM e Ruby  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  RVM e Ruby  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 Acessar o site:
 http://rvm.io/rvm/install
 
@@ -76,43 +77,43 @@ http://rvm.io/rvm/install
 gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
-######  Subir a instancia, pode por .bashrc   ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Subir a instancia, pode por .bashrc   ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 source /home/alvaro/.rvm/scripts/rvm
 ```
-######  Instalar suporte no grunt serve ao compass sass  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Instalar suporte no grunt serve ao compass sass  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 gem install compass
 ```
-######  Verificar permissão das pastas com os modulos do node  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Verificar permissão das pastas com os modulos do node  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 
-######  Normalmente em um dos diretorios abaixo:  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Normalmente em um dos diretorios abaixo:  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 * sudo chown  -R  {user|root}:{user|grupo}  /usr/lib/node_modules
 * sudo chown  -R  {user|root}:{user|grupo}  /usr/local/lib/node_modules
 
-######  Normalmente em um dos diretorios abaixo:  ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}  Normalmente em um dos diretorios abaixo:  ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 * sudo chmod -R 775	/usr/lib/node_modules
 * sudo chmod -R 775	/usr/local/lib/node_modules
 
-###### Exemplo - Adicionar dependencia bower #####
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Exemplo - Adicionar dependencia bower ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
-##### Adicionar ao projeto ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Adicionar ao projeto ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 bower install font-awesome --save
 
-##### Adicionar apenas para dev ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Adicionar apenas para dev ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 bower install font-awesome --save-dev
 ```
 
-##### Para rodar o projeto depois de clonar o repositorio, deve executar os comandos #####
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Para rodar o projeto depois de clonar o repositorio, deve executar os comandos ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 ```bash
 cd ~/IdeaProjects/${artifactId}/yo
 
-###### Modulos do projecto yo,grunt,npm,bower,etc ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Modulos do projecto yo,grunt,npm,bower,etc ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 npm update
 
-###### Depencias do bibliotecas ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Depencias do bibliotecas ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 bower install
 
-###### Compilar o projeto e gerar o front-end para a aplicação ######
+${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound} Compilar o projeto e gerar o front-end para a aplicação ${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}${symbol_pound}
 grunt
 ```
